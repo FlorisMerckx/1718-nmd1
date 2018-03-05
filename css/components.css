@@ -1,0 +1,200 @@
+/* 
+Custom Styling
+*/
+body {
+    background-color: #ffffff;
+}
+
+p {
+    color: var(--color-dark-grey);
+}
+
+.head_title {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+
+.navigation_box {
+   text-align: left;
+}
+
+nav {
+    width: 100%;
+    margin-left: auto;
+}
+
+nav li {
+    display: inline;
+    background-color: var(--color-black);
+    padding: 5px 10px;
+}
+
+nav li:hover {
+    background-color: var(--color-yellow);
+}
+
+li a, .main_link a {
+    color: var(--color-white);
+}
+
+.main_link a {
+    background-color: var(--color-black);
+    padding: 5px;
+    font-family: var(--font-family-info);
+    font-size: 12px;
+    }
+
+    .main_link a:hover{
+    background-color: var(--color-yellow);
+}
+
+.main_img {
+    width: 100%;
+}
+
+.main_img > img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.main_content h2, .main_content a {
+    font-size: 1.5em;
+    color: var(--color-black);
+}
+
+
+.main_author {
+    text-align: right;
+    color: var(--color-mid-grey);
+    padding: 5px;
+}
+
+.cards_author {
+    text-align: right;
+    color: var(--color-mid-grey);
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.main_author a, .cards_author a {
+    color: inherit;
+    margin-top: auto;
+}
+
+.main_author a:hover, .cards_author a:hover{
+    color: var(--color-black);
+}
+
+.above {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--grid-gutter);
+}
+
+.news h2 {
+    color: var(--color-yellow);
+    margin-top: 0px;
+}
+
+.news ul {
+    background-color: var(--color-yellow);
+    padding: 1em;
+}
+
+.news li p {
+   color: var(--color-white);
+}
+
+.news li {
+    border-bottom: 1px solid var(--color-white);
+    padding: 10px 0;
+    color: var(--color-white);
+    font-family: var(--font-family-headings); 
+}
+
+.news li a:hover{
+    color: var(--color-black);
+}
+
+time {
+    display: block;
+    color: var(--color-white);
+    font-family: var(--font-family-info);
+    text-align: right;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards_item {
+    background-color: var(--color-light-grey); 
+    margin-bottom: var(--grid-gutter);
+    height: 500px;
+    position: relative;
+}
+
+.cards_item_img{
+    width: 100%;
+}
+
+.cards_item_img > img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.cards_item_content h2, .cards_item_content a {
+    color: var(--color-black);
+}
+
+.cards_item_content {
+    padding: 0 5px;
+}
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 5px;
+}
+
+
+
+/*
+MEDIA QUERIES
+*/
+
+
+@media (min-width: 480px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navigation_box {
+       text-align: right;
+    }
+    
+
+    
+    
+}
+
+
+@media (min-width: 768px) {
+
+
+   
+}
+@media (min-width: 960px) {
+    
+}
