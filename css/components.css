@@ -47,7 +47,8 @@ li a, .main_link a {
     background-color: var(--color-black);
     padding: 5px;
     font-family: var(--font-family-info);
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 600;
     }
 
     .main_link a:hover{

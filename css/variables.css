@@ -9,9 +9,9 @@
     --color-yellow: rgba(212, 200, 32,1);
 
     /* fonts --------- */
-    --font-family-body: 'ebgaramond', serif;
-    --font-family-headings: 'poppins-bold', sans-serif;
-    --font-family-info: 'poppins', sans-serif;
+    --font-family-body: 'Raleway', sans-serif;
+    --font-family-headings: 'Oswald', sans-serif;
+    --font-family-info: 'Oswald', sans-serif;
 
     /* layout --------- */
     --grid-gutter: 24px;
