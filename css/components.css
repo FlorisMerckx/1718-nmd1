@@ -140,7 +140,7 @@ time {
 .cards_item {
     background-color: var(--color-light-grey); 
     margin-bottom: var(--grid-gutter);
-    height: 500px;
+    height: 600px;
     position: relative;
 }
 
